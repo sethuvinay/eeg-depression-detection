@@ -150,6 +150,15 @@ Useful flags for `train.py`: `--window-s`, `--stride-s`, `--target-fs`,
 5. **Evaluation** — strictly subject-wise splits (no subject appears in both
    train and test), reporting accuracy, macro-F1, and a confusion matrix.
 
+## Sample outputs
+
+Illustrative figures from the demo notebook running on synthetic signals —
+they show what the signal-processing stages look like, not the original research results.
+
+![Raw vs filtered synthetic signal](docs/images/signal_filtering.png)
+
+![EEG band-power distribution of the filtered signal](docs/images/band_powers.png)
+
 ## Limitations & future work
 
 - This is a reconstruction for portfolio purposes; hyperparameters and exact
